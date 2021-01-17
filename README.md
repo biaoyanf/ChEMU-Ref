@@ -19,7 +19,8 @@ This repository contains code introduced in the following paper:
 
 ## Getting Started 
 - Install python (preference 3) requirement: `pip install -r requirements.txt`
-- Download GloVe embeddings and run `setup_all.sh`
+- Download GloVe embeddings and [ChELMo embedding](https://github.com/zenanz/ChemPatentEmbeddings)
+- run `setup_all.sh`
 - To train your own models, modify the related codes in `setup_training.sh` and run it.
 - Install brat evalation tool 
 
