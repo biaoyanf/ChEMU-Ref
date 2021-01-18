@@ -35,7 +35,7 @@ This repository contains code introduced in the following paper:
 - Evaluation tool provides differnet settings, `exact` and `relax` mention matching. For this paper, we use `exact` mention matching.
 
 ## Input Data format
-A jsonline format as show below:
+The input format is *.jsonlines* file. Each line of the *.jsonlines* file is a batch of sentences and must in the following format
 ```
 {
 "doc_key": "0414", 
@@ -47,6 +47,6 @@ A jsonline format as show below:
 "Contained": []
 }
 ```
-For referring realtion, each pair contains two mentions the first one is the *anaphora* and the second one is the *antecedent*.
+For referring realtion, each pair contains two mentions: the first one is the *anaphora* and the second one is the *antecedent*.
 
 
