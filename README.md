@@ -14,7 +14,7 @@ This repository contains code introduced in the following paper:
 
 - ChEMU-Ref Dataset will be available in [ChEMU 2021 Shared task](http://chemu.eng.unimelb.edu.au/).
 
-- For detailed annotation guideline of ChEMU-Ref corpus, please refer to ?
+- For detailed annotation guideline of ChEMU-Ref corpus, please refer to [ChEMU-Ref annotation guideline](https://data.mendeley.com/datasets/r28xxr6p92)
 
 
 ## Getting Started 
