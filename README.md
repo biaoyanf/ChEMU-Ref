@@ -4,7 +4,7 @@
 
 This repository contains code introduced in the following paper:
 
-- ChEMU-Ref: A Corpus for Modeling Anaphora Resolution in the Chemical Domain
+- [ChEMU-Ref: A Corpus for Modeling Anaphora Resolution in the Chemical Domain](https://www.aclweb.org/anthology/2021.eacl-main.116/)
 
 - Biaoyan Fang, Christian Druckenbrodt, Saber A. Akhondi, Jiayuan He, Timothy Baldwin and Karin Verspoor
 
