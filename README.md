@@ -49,4 +49,26 @@ The input format is *.jsonlines* file. Each line of the *.jsonlines* file is a b
 ```
 For referring realtion, each pair contains two mentions: the first one is the *anaphora* and the second one is the *antecedent*.
 
+## Experiment result on the ChEMU-Ref Dataset (Full corpus)
 
+Below displays the primary experiment result on the full CheMU-Ref dataset based on our proposed model. For further experiment results with providing oracle mentions and ChELMO embedding, please refers to [Full experiment results](https://github.com/biaoyanf/ChEMU-Ref/blob/main/experiment_result/Full%20ChEMU-Ref%20experiment%20result.pdf)
+
+Relation | Method | P<sub>A</sub> | R<sub>A</sub> | F<sub>A</sub> | P<sub>R</sub> | R<sub>R</sub> | F<sub>R</sub>  
+| ------------- | ------------- | ------------- | -------------| ------------- | ------------- | ------------- | ------------- | 
+| Coref. (Surface) | coreference  | 89.4 | 55.9 | 68.7 | 79.2 | 47.7 | 59.5  
+|                    | joint_train | 91.4 | 56.0 | 69.5 | 81.3 | 48.0 | 60.3  
+|     Coref. (Atom) | coreference  | 89.4 | 55.9 | 68.7 | 81.3 | 48.3 | 60.6 
+|                    | joint_train | 91.4 | 56.0 | 69.5 | 83.9 | 48.8 | 61.7   
+|           Bridging | bridging | 89.5 | 83.9 | 86.6 | 81.4 | 72.8 | 76.8 
+|                 | joint_train | 91.2 | 84.1 | 87.5 | 83.1 | 74.1 | 78.3  
+|                 TR | bridging | 78.6 | 84.7 | 81.5 | 77.4 | 84.7 | 80.8  
+|                 | joint_train | 79.7 | 85.9 | 82.7 | 77.6 | 85.9 | 81.5  
+|                 RA | bridging | 89.5 | 84.6 | 87.0 | 80.6 | 68.5 | 74.0  
+|                 | joint_train | 91.4 | 85.6 | 88.4 | 82.7 | 69.2 | 75.3     
+|                 WU | bridging | 91.5 | 84.0 | 87.5 | 81.9 | 74.3 | 77.9  
+|                 | joint_train | 93.1 | 83.7 | 88.1 | 83.6 | 76.0 | 79.6   
+|                 CT | bridging | 89.8 | 77.5 | 83.1 | 85.1 | 70.0 | 76.8  
+|                 | joint_train | 91.3 | 77.0 | 83.3 | 85.9 | 69.4 | 76.4   
+|          Overall| joint_train | 91.2 | 74.0 | 81.7 | 82.8 | 68.7 | 75.1  
+
+Anaphora resolution results over the test dataset (%). Models are trained for "coreference", "bridging" or "joint_train" (both tasks jointly). Models were trained over 30,000 epochs, and averaged over 3 runs with different random seeds. F<sub>A</sub> and F<sub>R</sub> denote the F1 score for anaphor and relation prediction, respectively.
