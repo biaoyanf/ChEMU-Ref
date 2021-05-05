@@ -51,7 +51,7 @@ For referring realtion, each pair contains two mentions: the first one is the *a
 
 ## Experiment result on the ChEMU-Ref Dataset (Full corpus)
 
-Below displays the primary experiment result on the full CheMU-Ref dataset based on our proposed model. For further experiment results with providing oracle mentions and ChELMO embedding, please refers to [Full experiment results](https://github.com/biaoyanf/ChEMU-Ref/blob/main/experiment_result/Full%20ChEMU-Ref%20experiment%20result.pdf)
+Below displays the primary experiment result on the full CheMU-Ref dataset based on our proposed model. For further experiment results with providing oracle mentions and ChELMO embedding, please refers to [Full experiment results](https://github.com/biaoyanf/ChEMU-Ref/blob/main/experiment_result/Full%20ChEMU-Ref%20experiment%20result.pdf).
 
 Relation | Method | P<sub>A</sub> | R<sub>A</sub> | F<sub>A</sub> | P<sub>R</sub> | R<sub>R</sub> | F<sub>R</sub>  
 | ------------- | ------------- | ------------- | -------------| ------------- | ------------- | ------------- | ------------- | 
