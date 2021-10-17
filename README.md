@@ -21,8 +21,8 @@ This repository contains code introduced in the following paper:
 - Install python (preference 3) requirement: `pip install -r requirements.txt`
 - Download [GloVe](http://nlp.stanford.edu/data/glove.840B.300d.zip) and [ChELMo](https://github.com/zenanz/ChemPatentEmbeddings) embeddings
 - run `setup_all.sh`
-- To train your own models, modify the related codes in `setup_training.sh` and run it.
-- Install brat evalation tool 
+- To train your own models, modify the related codes in `setup_training.sh` and run it
+- Install [brat evalation tool](https://bitbucket.org/nicta_biomed/brateval/downloads/)
 
 ## Training Instructions
 - Experiment configurations are found in `experiments.conf`
