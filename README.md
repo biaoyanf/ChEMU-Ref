@@ -72,3 +72,9 @@ Relation | Method | P<sub>A</sub> | R<sub>A</sub> | F<sub>A</sub> | P<sub>R</sub
 |          Overall| joint_train | 91.2 | 74.0 | 81.7 | 82.8 | 68.7 | 75.1  
 
 Anaphora resolution results over the test dataset (%). Models are trained for "coreference", "bridging" or "joint_train" (both tasks jointly). Models were trained over 30,000 epochs, and averaged over 3 runs with different random seeds. F<sub>A</sub> and F<sub>R</sub> denote the F1 score for anaphor and relation prediction, respectively.
+
+
+# Licence
+Data is available under Mendeley Data CC-BY 4.0 Licence. 
+
+As data alternatively available at [ChEMU-Ref Mendeley](https://data.mendeley.com/datasets/r28xxr6p92/1).
